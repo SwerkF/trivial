@@ -1,0 +1,1013 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#container {
+    height: 200px;
+    position: relative;
+    
+}
+body {
+    background: url(includes/imgs/background.png);
+    background-size: cover;
+}
+#errorlogin {
+    margin-top:20px;
+    color: red;
+    text-align: center;
+    font-size:15px;
+    font-family: Raleway, sans-serif;
+}
+#box1Admin h1{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+#patientAjt p{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size:25px;
+}
+
+#patientAjt input[type="text"]{
+    width: 38%;
+    margin-left:158px;
+    font-size: 20px;
+    border-radius: 2px;
+    border:rgb(242, 242, 242);
+    border: 4px solid rgb(242, 242, 242);
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+
+#salonjeu {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction:column;
+    width: 400;
+    height: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+#salonjeu h1 {
+    font-size: 36px;
+}
+
+#salonjeu p{
+    font-weight: 600;
+    font-size: 26;
+    text-align: left
+}
+
+#salonjeu select {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    height: 30px;
+    width: 330px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#salonjeu option {
+    direction: ltr;
+    
+}
+
+#listJoueur{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em
+}
+
+
+
+
+#buttonAdd {
+    display: inline-block;
+    background-color: #147194;
+    border: transparent;
+    color: #FFFFFF;
+    font-size: 23px;
+    width: 53;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+#title {
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    position:fixed;
+    margin-left:350px;
+}
+#title2 {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    flex-direction: column;
+    align-items:flex-end;
+
+}
+
+#buttonStart input { 
+    display: flex;
+    border: none;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    color: #111;
+    text-align: right;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#clearList input {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    color: #111;
+    text-align: right;
+    font-weight: 600;
+    cursor: pointer;
+}
+#box2Admin h1{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+
+#box3Admin h1{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+
+#box4Admin h1{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+ #box4Admin p{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+ #box4Admin input[type="color"] {
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 20%;
+    height: 10%;
+    
+}
+#boxaccueil {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+#boxaccueil h1 {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px; 
+    
+}
+#boxaccueil h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px; 
+    margin-left: 105px;
+    margin-bottom: 100px;
+}
+
+#boxaccueil input {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0%;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 26px; 
+    font-weight: 700;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+#patientSuppr p{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size:25px;
+}
+
+
+#patientSuppr select{
+    width: 60%;
+    margin-top: 30px;
+    margin-left:100px;
+    font-size: 20px;
+    border-radius: 2px;
+    border:rgb(242, 242, 242);
+    border: 4px solid rgb(242, 242, 242);
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+#selectmenu select{
+    width: 60%;
+    margin-top: 30px;
+    margin-left:100px;
+    font-size: 20px;
+    border-radius: 2px;
+    border:rgb(242, 242, 242);
+    border: 4px solid rgb(242, 242, 242);
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+
+
+#box h1{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+#login p{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size:25px;
+}
+#login input[type="text"], #login input[type="password"] {
+    width: 38%;
+    margin-top: 30px;
+    margin-left:158px;
+    
+    font-size: 20px;
+    border-radius: 2px;
+    border:rgb(242, 242, 242);
+    border: 4px solid rgb(242, 242, 242);
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+#boutton input[type="submit"]{
+    width: 40%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background: #111;
+    color:#fff;
+
+}
+#boutton input[type="submit"]:hover {
+    width: 60%;
+    font-size:30px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease-in-out;
+}
+
+
+#logo a{
+    color:black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+    font-family: 'Armata', sans-serif;
+
+}
+
+#titre {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+
+#labels ul li {
+    display:inline-flex;
+    list-style: none;
+}
+
+#labels a {
+    right: 0;
+}
+
+#presentation h1 {
+    margin-top: 200px;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#presentation {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#presentation input {
+    width: 40%;
+    margin-top: 30px;
+    margin-left:160px;
+    font-size: 25px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background: #111;
+    color:#fff;
+    
+}
+#presentation input:hover {
+    width: 60%;
+    font-size:30px;
+    margin-left:100px;
+    transition: 0.3s ease-in-out;
+}
+#optionnel p {
+    font-size: 15px;
+}
+#ajoutOk p {
+    margin-top:20px;
+    color: rgb(62, 116, 62);
+    text-align: center;
+    font-size:15px;
+    font-family: Raleway, sans-serif;
+}
+#ajoutNoOk p {
+    margin-top:20px;
+    color: red;
+    text-align: center;
+    font-size:15px;
+    font-family: Raleway, sans-serif;
+}
+
+#descriptionJeu {
+    margin-top:100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#descriptionJeu h1 { 
+    font-size: 150px;
+}
+
+#boutton2 input[type="submit"]{
+    width: 40%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background: #111;
+    color:#fff;
+
+}
+#boutton2 input[type="submit"]:hover {
+    width: 60%;
+    font-size:30px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease-in-out;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+#historique td, th
+{
+    border: 1px solid black;
+}
+#reprendre h2{
+    font-family: 'Raleway', sans-serif;
+}
+#reprendre p{
+    font-size: 18px;
+    font-weight:600;
+    font-family: 'Raleway', sans-serif;
+}
+
+  #profilheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+#profilpic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    background-color: #111;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #fff;
+    margin-right: 20px;
+    
+}
+
+#profilheader a{
+    display: flex;
+    align-items: right;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.925rem;
+}
+
+#nameheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    list-style: none;
+
+}
+#nomsite {
+    font-size: 30px;
+}
+#villesite {
+    font-size: 20px;
+}
+
+#nameheader a, ul, li {
+    color: #fff;
+    list-style: none;
+}
+
+#profilheader td {
+    padding-right: 20px;
+}
+
+#profilheader table {
+    margin-left: 30px;
+}
+
+#titre p{
+    color: #ffffff;
+    
+}
+
+#nomsite p {
+    font-size: 34px;
+    
+}
+
+#action li, img{
+    padding-right: 30px;
+}
+
+#action a {
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 4px solid transparent;
+}
+#action a.active,
+#action a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+
+.first {
+    background-color: #0D6CAC;
+    width : 70px;
+    width : 70px;
+    padding-bottom: 20px;
+}
+.second {
+    background-color: #83A295;
+    width : 38px; 
+    height : 70px;;
+}
+.third {
+   background-color: #0D6CAC;
+   width : 38px; 
+   height : 70px;
+}
+.secondCote {
+    background-color: #83A295;
+    width : 70px; 
+    height : 36px;
+    
+}
+.thirdCote {
+   background-color: #0D6CAC;
+   width : 70px; 
+   height : 36px;
+}
+.containerHaut {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 520px;
+}
+.containerBas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 520px;
+}
+.cote {
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.secondCoteFirst {
+    background-color: #83A295;
+    margin-top: 3px;
+    width : 70px;
+    height : 33px; 
+}
+.secondCoteSecond {
+    background-color: #83A295;
+    margin-bottom: 3px;
+    width : 70px;
+    height : 38px; 
+}
+
+.jeu {
+    margin-top: 40px;
+    position: absolute;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.plateau {
+    padding-left: 80px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.joueur {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color:#0D6CAC;
+     font-family: Menlo, monospace;
+    margin-bottom: 10px;
+}
+
+.carreBlanco {
+    background-color: #fff;
+    width: 380px;
+    height: 40px;
+}
+
+.de {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.pion p {
+    font-size: 30px;
+}
+
+.salonJeu {
+    margin-top: 80px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction:row;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content:center
+}
+
+.salonJeu h1 {
+    font-size: 36px;
+}
+
+.salonJeu p{
+    font-weight: 600;
+    font-size: 26;
+    text-align: left
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #F910C0;
+}
+
+.gauche #title2 {
+    color: #000;  
+    line-height: 1rem;
+}
+
+.gauche #title2 h2 {
+    font-size: 20px;
+}
+
+.gauche #title2 p {
+    font-size: 16px;
+}
+
+.droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    background: white;
+    width: 700px;
+    height: 600px;
+    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%;
+    box-shadow: 0px 0px 10px #000;
+    
+}
+
+.droite h1 {
+   margin-top: 20px;
+   padding-bottom: 20px
+}
+
+.droite h3 {
+    margin-top: 15px;
+    margin-right: 450px;
+}
+
+.droite input[type="text"] {
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+    height: 40px;
+    border: rgb(185, 185, 185) 1px solid;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.droite input[type="submit"] {
+    margin-top: 30px;
+    border:none;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.droite input[type="checkbox"] { 
+    padding-right: 34px;
+}
+
+.gauche h1 {
+    font-weight: 600;
+    margin-bottom: 180px;
+}
+
+.radioRep {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radioButton {
+
+    padding-left: 30px
+}
+
+.qstPour {
+    
+    line-height: 1.50rem;
+}
+
+.true {
+    color: rgb(135, 226, 0);
+}
+
+.false {
+    color: red;
+}
+
+.awnser {
+    font-size: 30px;
+}
+.qstPour h1 {
+    font-size: 40px;
+}
+
+.headerQ {
+    margin-top:  20px;
+}
+
+.headerQ h1, h3 {
+    
+    line-height: 0.1rem;
+}
+
+.droite input[type="text"] {
+    font-size: 40px;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    padding-right: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.page h1 {
+    padding-bottom: 20px;
+}
+.div {
+    width: 10px;
+}
+
+.unJoueur {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.listeJoueur {
+    width: 780px;
+}
+
+.listeJoueur p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.listeJoueur .addRemove {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: end;
+
+
+}
+
+.inputs input[type="text"], input[type="password"] {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.inputs input[type="text"], input[type="password"] {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.form h1 {
+    padding-right: 40px;
+    
+}
+
+.inputs .reponses {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+}
+
+.inputs .reponses input[type="radio"] {
+    margin-top: 35px;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px
+}
+
+.inputs .select select {
+    width: 74%;
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 20px;
+    border-radius: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+
+
+.inputs .select2 select {
+    width: 74%;
+    margin-top: 20px;
+    margin-right:100px;
+    font-size: 20px;
+    border-radius: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.files {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+}
+
+.reponse {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.addQuestion input{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.boxstats {
+    box-sizing: border-box;
+    background: #fff;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.boxstats h1 {
+    line-height: 0.5em;
+}
+.listeScore {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.25em
+}
+
+.scoreJoueur {
+    display: flex;
+    flex-direction: row;
+}
+
+.scoreJoueur .score {
+    align-items: flex-end;
+}
+
+.listeSite {
+    width: 780px;
+}
+
+.listeSite p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.listeJoueur .addRemove {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: end;
+
+
+}
+
+.listePerso {
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bot {
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.select2 select {
+    text-align: center;
+    width: 200%;
+    margin-left:20px;
+    font-size: 20px;
+    border-radius: 2px;
+    border:rgb(242, 242, 242);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: Rgb(242, 242, 242);
+    background: rgb(242, 242, 242);
+    color:#111;
+}
+
+
+#dice {
+    background: url("res/dice/dice-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55px 30px;
+    background-size: 90px 90px;
+    background-color: #fff;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Menlo, monospace;
+    font-size: 4em;
+    line-height: 100px;
+    text-align: center;
+  }
+
+#roll {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 0.925em;
+    background-color:#147194;
+    color: white;
+    width: 180px
+
+  }
+
